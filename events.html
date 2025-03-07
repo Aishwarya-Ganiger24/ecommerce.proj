@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+    h1{
+        color:red;
+    }
+  .h1{
+       color:pink;
+  }
+    </style>
+     <!-- Main Clickable Image -->
+    <img id="mainImage" src="https://klebcagokak.com/wp-content/uploads/2022/04/Sayonara-06.jpg" alt="Main Image" onclick="changeImage()">
+    <center><h1>Sayonara 1.0</h1></center>
+
+    
+    <script>
+        // List of hidden images
+        let images = ["https://klebcagokak.com/wp-content/uploads/2022/04/Sayonara-01.jpg", "https://klebcagokak.com/wp-content/uploads/2022/04/Sayonara-02.jpg", "https://klebcagokak.com/wp-content/uploads/2022/04/Sayonara-03.jpg", "https://klebcagokak.com/wp-content/uploads/2022/04/Sayonara-010.jpg","https://klebcagokak.com/wp-content/uploads/2022/04/Sayonara-011.jpg"];
+        let index = 0; // Track the current image
+
+        function changeImage() {
+            if (index < images.length) {
+                // Change the main image to the next one in the list
+                document.getElementById("mainImage").src = images[index];
+                index++; // Move to the next image
+            } else {
+                alert("All images are displayed!");
+            }
+        }
+    </script>
+    <br>
+    <br>
+    <br>
+    <br>
+      <img id="mainImage" src=" https://klebcagokak.com/wp-content/uploads/2022/04/Innovision-02.jpg" alt="Main Image" onclick="changeImage()">
+    <center><h1>Innovision 2K20 – IT Seminar Compitition</h1></center>
+
+    
+    <script>
+        // List of hidden images
+        let images = ["https://klebcagokak.com/wp-content/uploads/2022/04/Innovision-011.jpg", "https://klebcagokak.com/wp-content/uploads/2022/04/Sayonara-02.jpg", "https://klebcagokak.com/wp-content/uploads/2022/04/Sayonara-03.jpg", "https://klebcagokak.com/wp-content/uploads/2022/04/Sayonara-010.jpg","https://klebcagokak.com/wp-content/uploads/2022/04/Sayonara-011.jpg"];
+        let index = 0; // Track the current image
+
+        function changeImage() {
+            if (index < images.length) {
+                // Change the main image to the next one in the list
+                document.getElementById("mainImage").src = images[index];
+                index++; // Move to the next image
+            } else {
+                alert("All images are displayed!");
+            }
+        }
+    </script>
+</body>
+</html>
